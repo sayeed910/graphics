@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/practice.dir/src/main.c.o CMakeFiles/practice.dir/src/glad.c.o  -o practice glfw/src/libglfw3.a /usr/lib64/librt.so -lm -ldl /usr/lib64/libX11.so -lpthread /usr/lib64/libXrandr.so /usr/lib64/libXinerama.so /usr/lib64/libXxf86vm.so /usr/lib64/libXcursor.so 
