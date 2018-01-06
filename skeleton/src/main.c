@@ -10,9 +10,14 @@
 void processInput(GLFWwindow *pWwindow);
 
 int main() {
+
     
 
     if (!glfwInit()) puts("Failed to load");
+    int number = 7;
+    int number2 = 10;
+
+    printf("%d", number);
 
     GLFWwindow* window;
 
