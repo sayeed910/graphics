@@ -4,20 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sayeed/programs/opengl/works/skeleton/src/glad.c" "/home/sayeed/programs/opengl/works/skeleton/build/CMakeFiles/skeleton.dir/src/glad.c.o"
-  "/home/sayeed/programs/opengl/works/skeleton/src/main.c" "/home/sayeed/programs/opengl/works/skeleton/build/CMakeFiles/skeleton.dir/src/main.c.o"
+  "/home/sayeed/programs/graphics/skeleton/src/main.c" "/home/sayeed/programs/graphics/skeleton/build/CMakeFiles/skeleton.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
-  "../glfw/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sayeed/programs/opengl/works/skeleton/build/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

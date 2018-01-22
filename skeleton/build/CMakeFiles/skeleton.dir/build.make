@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sayeed/programs/opengl/works/skeleton
+CMAKE_SOURCE_DIR = /home/sayeed/programs/graphics/skeleton
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sayeed/programs/opengl/works/skeleton/build
+CMAKE_BINARY_DIR = /home/sayeed/programs/graphics/skeleton/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/skeleton.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/skeleton.dir/flags.make
 
 CMakeFiles/skeleton.dir/src/main.c.o: CMakeFiles/skeleton.dir/flags.make
 CMakeFiles/skeleton.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sayeed/programs/opengl/works/skeleton/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/skeleton.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/skeleton.dir/src/main.c.o   -c /home/sayeed/programs/opengl/works/skeleton/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sayeed/programs/graphics/skeleton/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/skeleton.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/skeleton.dir/src/main.c.o   -c /home/sayeed/programs/graphics/skeleton/src/main.c
 
 CMakeFiles/skeleton.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/skeleton.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sayeed/programs/opengl/works/skeleton/src/main.c > CMakeFiles/skeleton.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sayeed/programs/graphics/skeleton/src/main.c > CMakeFiles/skeleton.dir/src/main.c.i
 
 CMakeFiles/skeleton.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/skeleton.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sayeed/programs/opengl/works/skeleton/src/main.c -o CMakeFiles/skeleton.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sayeed/programs/graphics/skeleton/src/main.c -o CMakeFiles/skeleton.dir/src/main.c.s
 
 CMakeFiles/skeleton.dir/src/main.c.o.requires:
 
@@ -81,51 +81,22 @@ CMakeFiles/skeleton.dir/src/main.c.o.provides: CMakeFiles/skeleton.dir/src/main.
 CMakeFiles/skeleton.dir/src/main.c.o.provides.build: CMakeFiles/skeleton.dir/src/main.c.o
 
 
-CMakeFiles/skeleton.dir/src/glad.c.o: CMakeFiles/skeleton.dir/flags.make
-CMakeFiles/skeleton.dir/src/glad.c.o: ../src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sayeed/programs/opengl/works/skeleton/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/skeleton.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/skeleton.dir/src/glad.c.o   -c /home/sayeed/programs/opengl/works/skeleton/src/glad.c
-
-CMakeFiles/skeleton.dir/src/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/skeleton.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sayeed/programs/opengl/works/skeleton/src/glad.c > CMakeFiles/skeleton.dir/src/glad.c.i
-
-CMakeFiles/skeleton.dir/src/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/skeleton.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sayeed/programs/opengl/works/skeleton/src/glad.c -o CMakeFiles/skeleton.dir/src/glad.c.s
-
-CMakeFiles/skeleton.dir/src/glad.c.o.requires:
-
-.PHONY : CMakeFiles/skeleton.dir/src/glad.c.o.requires
-
-CMakeFiles/skeleton.dir/src/glad.c.o.provides: CMakeFiles/skeleton.dir/src/glad.c.o.requires
-	$(MAKE) -f CMakeFiles/skeleton.dir/build.make CMakeFiles/skeleton.dir/src/glad.c.o.provides.build
-.PHONY : CMakeFiles/skeleton.dir/src/glad.c.o.provides
-
-CMakeFiles/skeleton.dir/src/glad.c.o.provides.build: CMakeFiles/skeleton.dir/src/glad.c.o
-
-
 # Object files for target skeleton
 skeleton_OBJECTS = \
-"CMakeFiles/skeleton.dir/src/main.c.o" \
-"CMakeFiles/skeleton.dir/src/glad.c.o"
+"CMakeFiles/skeleton.dir/src/main.c.o"
 
 # External object files for target skeleton
 skeleton_EXTERNAL_OBJECTS =
 
 skeleton: CMakeFiles/skeleton.dir/src/main.c.o
-skeleton: CMakeFiles/skeleton.dir/src/glad.c.o
 skeleton: CMakeFiles/skeleton.dir/build.make
-skeleton: glfw/src/libglfw3.a
-skeleton: /usr/lib64/librt.so
-skeleton: /usr/lib64/libm.so
-skeleton: /usr/lib64/libX11.so
-skeleton: /usr/lib64/libXrandr.so
-skeleton: /usr/lib64/libXinerama.so
-skeleton: /usr/lib64/libXxf86vm.so
-skeleton: /usr/lib64/libXcursor.so
+skeleton: /usr/lib64/libGL.so
+skeleton: /usr/lib64/libGLU.so
+skeleton: /usr/lib64/libglut.so
+skeleton: /usr/lib64/libXmu.so
+skeleton: /usr/lib64/libXi.so
 skeleton: CMakeFiles/skeleton.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sayeed/programs/opengl/works/skeleton/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable skeleton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sayeed/programs/graphics/skeleton/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable skeleton"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/skeleton.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -134,7 +105,6 @@ CMakeFiles/skeleton.dir/build: skeleton
 .PHONY : CMakeFiles/skeleton.dir/build
 
 CMakeFiles/skeleton.dir/requires: CMakeFiles/skeleton.dir/src/main.c.o.requires
-CMakeFiles/skeleton.dir/requires: CMakeFiles/skeleton.dir/src/glad.c.o.requires
 
 .PHONY : CMakeFiles/skeleton.dir/requires
 
@@ -143,6 +113,6 @@ CMakeFiles/skeleton.dir/clean:
 .PHONY : CMakeFiles/skeleton.dir/clean
 
 CMakeFiles/skeleton.dir/depend:
-	cd /home/sayeed/programs/opengl/works/skeleton/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sayeed/programs/opengl/works/skeleton /home/sayeed/programs/opengl/works/skeleton /home/sayeed/programs/opengl/works/skeleton/build /home/sayeed/programs/opengl/works/skeleton/build /home/sayeed/programs/opengl/works/skeleton/build/CMakeFiles/skeleton.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sayeed/programs/graphics/skeleton/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sayeed/programs/graphics/skeleton /home/sayeed/programs/graphics/skeleton /home/sayeed/programs/graphics/skeleton/build /home/sayeed/programs/graphics/skeleton/build /home/sayeed/programs/graphics/skeleton/build/CMakeFiles/skeleton.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/skeleton.dir/depend
 

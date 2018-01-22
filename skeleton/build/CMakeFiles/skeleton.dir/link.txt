@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/skeleton.dir/src/main.c.o CMakeFiles/skeleton.dir/src/glad.c.o  -o skeleton glfw/src/libglfw3.a /usr/lib64/librt.so -lm -ldl /usr/lib64/libX11.so -lpthread /usr/lib64/libXrandr.so /usr/lib64/libXinerama.so /usr/lib64/libXxf86vm.so /usr/lib64/libXcursor.so 
+/usr/bin/cc -g   CMakeFiles/skeleton.dir/src/main.c.o  -o skeleton /usr/lib64/libGL.so /usr/lib64/libGLU.so /usr/lib64/libglut.so /usr/lib64/libXmu.so /usr/lib64/libXi.so 

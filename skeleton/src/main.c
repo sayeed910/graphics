@@ -1,59 +1,128 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
+#include <GL/gl.h>
+#include <GL/glut.h>
 
+int a0, b0, a1, b1;
 
-#include "glad/glad.h"
-#include "GLFW/glfw3.h"
-#include "main.h"
-
-
-void processInput(GLFWwindow *pWwindow);
-
-int main() {
-
-    
-
-    if (!glfwInit()) puts("Failed to load");
-    int number = 7;
-    int number2 = 10;
-
-    printf("%d", number);
-
-    GLFWwindow* window;
-
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-
-    window = glfwCreateWindow(1024, 600, "First Window", NULL, NULL);
-    glfwMakeContextCurrent(window);
-    gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-    glViewport(0, 0, 1366, 768);
-
-    glfwSetFramebufferSizeCallback(window, frame_resize_buffer);
-    while(!glfwWindowShouldClose(window)){
-        //Process key inputs
-        processInput(window);
-
-        //render commands
-        glClearColor(.2f, .3f, .3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
-
-        //Poll events and swap buffer
-        glfwSwapBuffers(window);
-        glfwPollEvents();
-    }
-
-    glfwTerminate();
-    return 0;
+void myInit()
+{
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	glOrtho(-320, 319, -240, 239, -1, 1);
 }
 
-void processInput(GLFWwindow *pWwindow) {
-    if (glfwGetKey(pWwindow, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-        glfwSetWindowShouldClose(pWwindow, 1);
+// int _round(float x)
+// {
+// 	double dif = x - (int) x;
+// 	if(dif >= 0.5) return (int)x + 1;
+// 	else return (int) x;
+// }
+
+int getZone(int dx, int dy)
+{
+
+	if(dx > 0 && dy > 0)
+	{
+		if(dx >= dy)
+			return 0;
+		else
+			return 1;
+	}
+	
+	else if(dx < 0 && dy > 0)
+	{
+		if(abs(dx) >= dy)
+			return 3;
+		else
+			return 2;
+	}
+	
+	else if(dx < 0 && dy < 0)
+	{
+		if(abs(dx) >= abs(dy))
+			return 4;
+		else
+			return 5;
+	}
+	
+	else if(dx > 0 && dy < 0)
+	{
+		if(dx >= abs(dy))
+			return 7;
+		else
+			return 6;
+	}
 }
 
+void drawLine(void)
+{
+	puts("61:");
+	int dx = a1 - a0;
+	int dy = b1 - b0;
+	int zone = getZone(dx, dy);
+    printf("63: %d %d\n", dx, dy);
+	double m = dy/dx;
 
-void frame_resize_buffer(GLFWwindow *window, int width, int height) {
-    puts("Resize called");
+	
+	
+	// if(zone == 0)
+	{
+	printf("ffijkfjanf\n");
+		int d = 2 * dy - dx;
+		int dE = 2 * dy;
+		int dNE = 2 * (dy - dx);
+		int x = a0, y = b0;
+		glVertex2i(x, y);
+		
+		while(x < a1)
+		{
+			if ( d < 0)
+			{
+				//East
+				x++; 
+				d += dE;
+			}
+			
+			else
+			{
+				//North-East
+				x++;
+				y++;
+				d += dNE;
+			}
+			glVertex2i(x, y);
+		}
+	}
+		
+	
+}
+
+void renderScene(void) {
+	
+	
+	glBegin(GL_POINTS);
+	glColor3f(0, 1.0, 0);
+		drawLine();
+	glEnd();
+	glFlush();
+	// glutSwapBuffers();
+}
+
+int main(int argc, char** argv)
+{
+	scanf("%d %d %d %d", &a0, &a1, &b0, &b1);
+	glutInit(&argc, argv);
+	glutInitDisplayMode(GLUT_SINGLE);
+	glutInitWindowPosition(100, 100);
+	glutInitWindowSize(640, 480);
+	glutCreateWindow("Pixel Draw");
+	myInit();
+	glClearColor(0, 0, 0, 1);
+	glClear(GL_COLOR_BUFFER_BIT );
+	//Call to the drawing function
+	glutDisplayFunc(renderScene);
+	
+	glutMainLoop();
+	return 1;
 }

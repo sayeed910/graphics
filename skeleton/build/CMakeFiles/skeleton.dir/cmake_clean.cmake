@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/skeleton.dir/src/main.c.o"
-  "CMakeFiles/skeleton.dir/src/glad.c.o"
   "skeleton.pdb"
   "skeleton"
 )

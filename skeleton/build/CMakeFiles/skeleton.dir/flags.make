@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/sayeed/programs/opengl/works/skeleton/include -I/home/sayeed/programs/opengl/works/skeleton/glfw/include 
+C_INCLUDES = -I/home/sayeed/programs/graphics/skeleton/include 
 
