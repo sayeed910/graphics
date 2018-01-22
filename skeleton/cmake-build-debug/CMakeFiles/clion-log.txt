@@ -1,6 +1,0 @@
-/home/sayeed/clion-2017.3.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sayeed/programs/opengl/practice
--- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
--- Using X11 for window creation
--- Configuring done
--- Generating done
--- Build files have been written to: /home/sayeed/programs/opengl/practice/cmake-build-debug
