@@ -1,0 +1,3 @@
+/home/student/sayeed/graphics/cyprus_beak/build/CMakeFiles/edit_cache.dir
+/home/student/sayeed/graphics/cyprus_beak/build/CMakeFiles/rebuild_cache.dir
+/home/student/sayeed/graphics/cyprus_beak/build/CMakeFiles/skeleton.dir
