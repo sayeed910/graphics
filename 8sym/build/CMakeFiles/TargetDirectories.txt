@@ -1,3 +1,3 @@
-/home/student/sayeed/graphics/bresenham/build/CMakeFiles/edit_cache.dir
-/home/student/sayeed/graphics/bresenham/build/CMakeFiles/rebuild_cache.dir
-/home/student/sayeed/graphics/bresenham/build/CMakeFiles/skeleton.dir
+/home/sayeed/programs/graphics/8sym/build/CMakeFiles/rebuild_cache.dir
+/home/sayeed/programs/graphics/8sym/build/CMakeFiles/skeleton.dir
+/home/sayeed/programs/graphics/8sym/build/CMakeFiles/edit_cache.dir
