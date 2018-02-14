@@ -226,12 +226,6 @@ rotation_BINARY_DIR:STATIC=/home/sayeed/programs/academic/graphics/rotate/build
 //Value Computed by CMake
 rotation_SOURCE_DIR:STATIC=/home/sayeed/programs/academic/graphics/rotate
 
-//Value Computed by CMake
-skeleton_BINARY_DIR:STATIC=/home/sayeed/programs/academic/graphics/rotate/build
-
-//Value Computed by CMake
-skeleton_SOURCE_DIR:STATIC=/home/sayeed/programs/academic/graphics/rotate
-
 
 ########################
 # INTERNAL cache entries

@@ -13,25 +13,35 @@ int transformY(int x, int y, int modifier){
 }
 
 void rotateLeft(){
-    x0 = transformX(x0, _y0, 1);
-    _y0 = transformY(x0, _y0, 1);
-    x1 = transformX(x1, _y1, 1);
-    _y1 = transformY(x1, _y1, 1);
-    x2 = transformX(x2, y2, 1);
-    y2 = transformY(x2, y2, 1);
-    x3 = transformX(x3, y3, 1);
-    y3 = transformY(x3, y3, 1);
+    int temp;
+    temp = x0;
+    x0 = transformX(temp, _y0, 1);
+    _y0 = transformY(temp, _y0, 1);
+    temp = x1;
+    x1 = transformX(temp, _y1, 1);
+    _y1 = transformY(temp, _y1, 1);
+    temp = x2;
+    x2 = transformX(temp, y2, 1);
+    y2 = transformY(temp, y2, 1);
+    temp = x3;
+    x3 = transformX(temp, y3, 1);
+    y3 = transformY(temp, y3, 1);
 }
 
 void rotateRight(){
-    x0 = transformX(x0, _y0, -1);
-    _y0 = transformY(x0, _y0, -1);
-    x1 = transformX(x1, _y1, -1);
-    _y1 = transformY(x1, _y1, -1);
-    x2 = transformX(x2, y2, -1);
-    y2 = transformY(x2, y2, -1);
-    x3 = transformX(x3, y3, -1);
-    y3 = transformY(x3, y3, -1);
+   int temp;
+    temp = x0;
+    x0 = transformX(temp, _y0, -1);
+    _y0 = transformY(temp, _y0, -1);
+    temp = x1;
+    x1 = transformX(temp, _y1, -1);
+    _y1 = transformY(temp, _y1, -1);
+    temp = x2;
+    x2 = transformX(temp, y2, -1);
+    y2 = transformY(temp, y2, -1);
+    temp = x3;
+    x3 = transformX(temp, y3, -1);
+    y3 = transformY(temp, y3, -1);
 }
 
 void keypressCallback(int key, int x, int y){
