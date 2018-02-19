@@ -1,0 +1,3 @@
+/home/student/sayeed/graphics/circle/build/CMakeFiles/edit_cache.dir
+/home/student/sayeed/graphics/circle/build/CMakeFiles/rebuild_cache.dir
+/home/student/sayeed/graphics/circle/build/CMakeFiles/skeleton.dir

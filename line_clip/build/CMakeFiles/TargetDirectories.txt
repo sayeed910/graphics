@@ -1,0 +1,3 @@
+/home/student/sayeed/graphics/line_clip/build/CMakeFiles/edit_cache.dir
+/home/student/sayeed/graphics/line_clip/build/CMakeFiles/rebuild_cache.dir
+/home/student/sayeed/graphics/line_clip/build/CMakeFiles/skeleton.dir

@@ -30,17 +30,17 @@ int main(int argc, char **argv)
 void display()
 {
 
-    glBegin(GL_LINES);
-    glColor3f(1, 1.0, 1);
-    glVertex2i(-320, 0);
-    glVertex2i(319, 0);
-    glEnd();
+    // glBegin(GL_LINES);
+    // glColor3f(1, 1.0, 1);
+    // glVertex2i(-320, 0);
+    // glVertex2i(319, 0);
+    // glEnd();
 
-    glBegin(GL_LINES);
-    glColor3f(1, 1.0, 1);
-    glVertex2i(0, -240);
-    glVertex2i(0, 239);
-    glEnd();
+    // glBegin(GL_LINES);
+    // glColor3f(1, 1.0, 1);
+    // glVertex2i(0, -240);
+    // glVertex2i(0, 239);
+    // glEnd();
 
     glClearColor(0, 0, 0, 1);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

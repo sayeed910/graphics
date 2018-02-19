@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -34,15 +34,15 @@ stdio.h
 math.h
 -
 
-/home/sayeed/programs/academic/graphics/rotate/src/8sym.c
+/home/student/sayeed/graphics/rotate/src/8sym.c
 8sym.h
-/home/sayeed/programs/academic/graphics/rotate/src/8sym.h
+/home/student/sayeed/graphics/rotate/src/8sym.h
 
-/home/sayeed/programs/academic/graphics/rotate/src/main.c
+/home/student/sayeed/graphics/rotate/src/main.c
 main.h
-/home/sayeed/programs/academic/graphics/rotate/src/main.h
+/home/student/sayeed/graphics/rotate/src/main.h
 
-/home/sayeed/programs/academic/graphics/rotate/src/rotation.c
+/home/student/sayeed/graphics/rotate/src/rotation.c
 rotation.h
-/home/sayeed/programs/academic/graphics/rotate/src/rotation.h
+/home/student/sayeed/graphics/rotate/src/rotation.h
 

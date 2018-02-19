@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sayeed/programs/academic/graphics/rotate/src/8sym.c" "/home/sayeed/programs/academic/graphics/rotate/build/CMakeFiles/rotation.dir/src/8sym.c.o"
-  "/home/sayeed/programs/academic/graphics/rotate/src/main.c" "/home/sayeed/programs/academic/graphics/rotate/build/CMakeFiles/rotation.dir/src/main.c.o"
-  "/home/sayeed/programs/academic/graphics/rotate/src/rotation.c" "/home/sayeed/programs/academic/graphics/rotate/build/CMakeFiles/rotation.dir/src/rotation.c.o"
+  "/home/student/sayeed/graphics/rotate/src/8sym.c" "/home/student/sayeed/graphics/rotate/build/CMakeFiles/rotation.dir/src/8sym.c.o"
+  "/home/student/sayeed/graphics/rotate/src/main.c" "/home/student/sayeed/graphics/rotate/build/CMakeFiles/rotation.dir/src/main.c.o"
+  "/home/student/sayeed/graphics/rotate/src/rotation.c" "/home/student/sayeed/graphics/rotate/build/CMakeFiles/rotation.dir/src/rotation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
