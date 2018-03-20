@@ -14,14 +14,6 @@ stdio.h
 math.h
 -
 
-../include/draw3d.h
-GL/glut.h
--
-stdio.h
--
-math.h
--
-
 ../include/main.h
 GL/glut.h
 -
@@ -31,18 +23,26 @@ math.h
 -
 8sym.h
 ../include/8sym.h
-draw3d.h
-../include/draw3d.h
+rotation.h
+../include/rotation.h
 
-/home/student/sayeed/graphics/projection/src/8sym.c
+../include/rotation.h
+GL/glut.h
+-
+stdio.h
+-
+math.h
+-
+
+/home/student/sayeed/graphics/rotate/src/8sym.c
 8sym.h
-/home/student/sayeed/graphics/projection/src/8sym.h
+/home/student/sayeed/graphics/rotate/src/8sym.h
 
-/home/student/sayeed/graphics/projection/src/draw3d.c
-draw3d.h
-/home/student/sayeed/graphics/projection/src/draw3d.h
-
-/home/student/sayeed/graphics/projection/src/main.c
+/home/student/sayeed/graphics/rotate/src/main.c
 main.h
-/home/student/sayeed/graphics/projection/src/main.h
+/home/student/sayeed/graphics/rotate/src/main.h
+
+/home/student/sayeed/graphics/rotate/src/rotation.c
+rotation.h
+/home/student/sayeed/graphics/rotate/src/rotation.h
 

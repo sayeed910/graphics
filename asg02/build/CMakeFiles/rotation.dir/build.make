@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/sayeed/graphics/projection
+CMAKE_SOURCE_DIR = /home/student/sayeed/graphics/rotate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/sayeed/graphics/projection/build
+CMAKE_BINARY_DIR = /home/student/sayeed/graphics/rotate/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rotation.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/rotation.dir/flags.make
 
 CMakeFiles/rotation.dir/src/main.c.o: CMakeFiles/rotation.dir/flags.make
 CMakeFiles/rotation.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/sayeed/graphics/projection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rotation.dir/src/main.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rotation.dir/src/main.c.o   -c /home/student/sayeed/graphics/projection/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/sayeed/graphics/rotate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rotation.dir/src/main.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rotation.dir/src/main.c.o   -c /home/student/sayeed/graphics/rotate/src/main.c
 
 CMakeFiles/rotation.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rotation.dir/src/main.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/sayeed/graphics/projection/src/main.c > CMakeFiles/rotation.dir/src/main.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/sayeed/graphics/rotate/src/main.c > CMakeFiles/rotation.dir/src/main.c.i
 
 CMakeFiles/rotation.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rotation.dir/src/main.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/sayeed/graphics/projection/src/main.c -o CMakeFiles/rotation.dir/src/main.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/sayeed/graphics/rotate/src/main.c -o CMakeFiles/rotation.dir/src/main.c.s
 
 CMakeFiles/rotation.dir/src/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/rotation.dir/src/main.c.o.provides.build: CMakeFiles/rotation.dir/src
 
 CMakeFiles/rotation.dir/src/8sym.c.o: CMakeFiles/rotation.dir/flags.make
 CMakeFiles/rotation.dir/src/8sym.c.o: ../src/8sym.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/sayeed/graphics/projection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rotation.dir/src/8sym.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rotation.dir/src/8sym.c.o   -c /home/student/sayeed/graphics/projection/src/8sym.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/sayeed/graphics/rotate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rotation.dir/src/8sym.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rotation.dir/src/8sym.c.o   -c /home/student/sayeed/graphics/rotate/src/8sym.c
 
 CMakeFiles/rotation.dir/src/8sym.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rotation.dir/src/8sym.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/sayeed/graphics/projection/src/8sym.c > CMakeFiles/rotation.dir/src/8sym.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/sayeed/graphics/rotate/src/8sym.c > CMakeFiles/rotation.dir/src/8sym.c.i
 
 CMakeFiles/rotation.dir/src/8sym.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rotation.dir/src/8sym.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/sayeed/graphics/projection/src/8sym.c -o CMakeFiles/rotation.dir/src/8sym.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/sayeed/graphics/rotate/src/8sym.c -o CMakeFiles/rotation.dir/src/8sym.c.s
 
 CMakeFiles/rotation.dir/src/8sym.c.o.requires:
 
@@ -105,42 +105,42 @@ CMakeFiles/rotation.dir/src/8sym.c.o.provides: CMakeFiles/rotation.dir/src/8sym.
 CMakeFiles/rotation.dir/src/8sym.c.o.provides.build: CMakeFiles/rotation.dir/src/8sym.c.o
 
 
-CMakeFiles/rotation.dir/src/draw3d.c.o: CMakeFiles/rotation.dir/flags.make
-CMakeFiles/rotation.dir/src/draw3d.c.o: ../src/draw3d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/sayeed/graphics/projection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rotation.dir/src/draw3d.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rotation.dir/src/draw3d.c.o   -c /home/student/sayeed/graphics/projection/src/draw3d.c
+CMakeFiles/rotation.dir/src/rotation.c.o: CMakeFiles/rotation.dir/flags.make
+CMakeFiles/rotation.dir/src/rotation.c.o: ../src/rotation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/sayeed/graphics/rotate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rotation.dir/src/rotation.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rotation.dir/src/rotation.c.o   -c /home/student/sayeed/graphics/rotate/src/rotation.c
 
-CMakeFiles/rotation.dir/src/draw3d.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rotation.dir/src/draw3d.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/sayeed/graphics/projection/src/draw3d.c > CMakeFiles/rotation.dir/src/draw3d.c.i
+CMakeFiles/rotation.dir/src/rotation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rotation.dir/src/rotation.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/sayeed/graphics/rotate/src/rotation.c > CMakeFiles/rotation.dir/src/rotation.c.i
 
-CMakeFiles/rotation.dir/src/draw3d.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rotation.dir/src/draw3d.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/sayeed/graphics/projection/src/draw3d.c -o CMakeFiles/rotation.dir/src/draw3d.c.s
+CMakeFiles/rotation.dir/src/rotation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rotation.dir/src/rotation.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/sayeed/graphics/rotate/src/rotation.c -o CMakeFiles/rotation.dir/src/rotation.c.s
 
-CMakeFiles/rotation.dir/src/draw3d.c.o.requires:
+CMakeFiles/rotation.dir/src/rotation.c.o.requires:
 
-.PHONY : CMakeFiles/rotation.dir/src/draw3d.c.o.requires
+.PHONY : CMakeFiles/rotation.dir/src/rotation.c.o.requires
 
-CMakeFiles/rotation.dir/src/draw3d.c.o.provides: CMakeFiles/rotation.dir/src/draw3d.c.o.requires
-	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/draw3d.c.o.provides.build
-.PHONY : CMakeFiles/rotation.dir/src/draw3d.c.o.provides
+CMakeFiles/rotation.dir/src/rotation.c.o.provides: CMakeFiles/rotation.dir/src/rotation.c.o.requires
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/rotation.c.o.provides.build
+.PHONY : CMakeFiles/rotation.dir/src/rotation.c.o.provides
 
-CMakeFiles/rotation.dir/src/draw3d.c.o.provides.build: CMakeFiles/rotation.dir/src/draw3d.c.o
+CMakeFiles/rotation.dir/src/rotation.c.o.provides.build: CMakeFiles/rotation.dir/src/rotation.c.o
 
 
 # Object files for target rotation
 rotation_OBJECTS = \
 "CMakeFiles/rotation.dir/src/main.c.o" \
 "CMakeFiles/rotation.dir/src/8sym.c.o" \
-"CMakeFiles/rotation.dir/src/draw3d.c.o"
+"CMakeFiles/rotation.dir/src/rotation.c.o"
 
 # External object files for target rotation
 rotation_EXTERNAL_OBJECTS =
 
 rotation: CMakeFiles/rotation.dir/src/main.c.o
 rotation: CMakeFiles/rotation.dir/src/8sym.c.o
-rotation: CMakeFiles/rotation.dir/src/draw3d.c.o
+rotation: CMakeFiles/rotation.dir/src/rotation.c.o
 rotation: CMakeFiles/rotation.dir/build.make
 rotation: /usr/lib/x86_64-linux-gnu/libGLU.so
 rotation: /usr/lib/x86_64-linux-gnu/libGL.so
@@ -148,7 +148,7 @@ rotation: /usr/lib/x86_64-linux-gnu/libglut.so
 rotation: /usr/lib/x86_64-linux-gnu/libXmu.so
 rotation: /usr/lib/x86_64-linux-gnu/libXi.so
 rotation: CMakeFiles/rotation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/sayeed/graphics/projection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable rotation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/sayeed/graphics/rotate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable rotation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rotation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,7 +158,7 @@ CMakeFiles/rotation.dir/build: rotation
 
 CMakeFiles/rotation.dir/requires: CMakeFiles/rotation.dir/src/main.c.o.requires
 CMakeFiles/rotation.dir/requires: CMakeFiles/rotation.dir/src/8sym.c.o.requires
-CMakeFiles/rotation.dir/requires: CMakeFiles/rotation.dir/src/draw3d.c.o.requires
+CMakeFiles/rotation.dir/requires: CMakeFiles/rotation.dir/src/rotation.c.o.requires
 
 .PHONY : CMakeFiles/rotation.dir/requires
 
@@ -167,6 +167,6 @@ CMakeFiles/rotation.dir/clean:
 .PHONY : CMakeFiles/rotation.dir/clean
 
 CMakeFiles/rotation.dir/depend:
-	cd /home/student/sayeed/graphics/projection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/sayeed/graphics/projection /home/student/sayeed/graphics/projection /home/student/sayeed/graphics/projection/build /home/student/sayeed/graphics/projection/build /home/student/sayeed/graphics/projection/build/CMakeFiles/rotation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/sayeed/graphics/rotate/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/sayeed/graphics/rotate /home/student/sayeed/graphics/rotate /home/student/sayeed/graphics/rotate/build /home/student/sayeed/graphics/rotate/build /home/student/sayeed/graphics/rotate/build/CMakeFiles/rotation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rotation.dir/depend
 

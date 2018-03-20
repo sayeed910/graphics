@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/sayeed/graphics/projection
+CMAKE_SOURCE_DIR = /home/student/sayeed/graphics/rotate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/sayeed/graphics/projection/build
+CMAKE_BINARY_DIR = /home/student/sayeed/graphics/rotate/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/sayeed/graphics/projection/build/CMakeFiles /home/student/sayeed/graphics/projection/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/sayeed/graphics/rotate/build/CMakeFiles /home/student/sayeed/graphics/rotate/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/sayeed/graphics/projection/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/sayeed/graphics/rotate/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,33 +150,6 @@ src/8sym.c.s:
 	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/8sym.c.s
 .PHONY : src/8sym.c.s
 
-src/draw3d.o: src/draw3d.c.o
-
-.PHONY : src/draw3d.o
-
-# target to build an object file
-src/draw3d.c.o:
-	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/draw3d.c.o
-.PHONY : src/draw3d.c.o
-
-src/draw3d.i: src/draw3d.c.i
-
-.PHONY : src/draw3d.i
-
-# target to preprocess a source file
-src/draw3d.c.i:
-	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/draw3d.c.i
-.PHONY : src/draw3d.c.i
-
-src/draw3d.s: src/draw3d.c.s
-
-.PHONY : src/draw3d.s
-
-# target to generate assembly for a file
-src/draw3d.c.s:
-	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/draw3d.c.s
-.PHONY : src/draw3d.c.s
-
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -204,6 +177,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/rotation.o: src/rotation.c.o
+
+.PHONY : src/rotation.o
+
+# target to build an object file
+src/rotation.c.o:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/rotation.c.o
+.PHONY : src/rotation.c.o
+
+src/rotation.i: src/rotation.c.i
+
+.PHONY : src/rotation.i
+
+# target to preprocess a source file
+src/rotation.c.i:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/rotation.c.i
+.PHONY : src/rotation.c.i
+
+src/rotation.s: src/rotation.c.s
+
+.PHONY : src/rotation.s
+
+# target to generate assembly for a file
+src/rotation.c.s:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/rotation.c.s
+.PHONY : src/rotation.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +216,12 @@ help:
 	@echo "... src/8sym.o"
 	@echo "... src/8sym.i"
 	@echo "... src/8sym.s"
-	@echo "... src/draw3d.o"
-	@echo "... src/draw3d.i"
-	@echo "... src/draw3d.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/rotation.o"
+	@echo "... src/rotation.i"
+	@echo "... src/rotation.s"
 .PHONY : help
 
 

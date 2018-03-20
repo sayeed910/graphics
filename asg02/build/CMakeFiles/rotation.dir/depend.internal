@@ -3,12 +3,12 @@
 
 CMakeFiles/rotation.dir/src/8sym.c.o
  ../include/8sym.h
- /home/student/sayeed/graphics/projection/src/8sym.c
-CMakeFiles/rotation.dir/src/draw3d.c.o
- ../include/draw3d.h
- /home/student/sayeed/graphics/projection/src/draw3d.c
+ /home/student/sayeed/graphics/rotate/src/8sym.c
 CMakeFiles/rotation.dir/src/main.c.o
  ../include/8sym.h
- ../include/draw3d.h
  ../include/main.h
- /home/student/sayeed/graphics/projection/src/main.c
+ ../include/rotation.h
+ /home/student/sayeed/graphics/rotate/src/main.c
+CMakeFiles/rotation.dir/src/rotation.c.o
+ ../include/rotation.h
+ /home/student/sayeed/graphics/rotate/src/rotation.c

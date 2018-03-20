@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/sayeed/graphics/projection
+# Install script for directory: /home/student/sayeed/graphics/rotate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/student/sayeed/graphics/projection/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/sayeed/graphics/rotate/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

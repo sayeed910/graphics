@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/student/sayeed/graphics/projection/include 
+C_INCLUDES = -I/home/student/sayeed/graphics/rotate/include 
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotation.dir/src/main.c.o"
   "CMakeFiles/rotation.dir/src/8sym.c.o"
-  "CMakeFiles/rotation.dir/src/draw3d.c.o"
+  "CMakeFiles/rotation.dir/src/rotation.c.o"
   "rotation.pdb"
   "rotation"
 )
