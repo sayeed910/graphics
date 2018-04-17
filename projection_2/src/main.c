@@ -129,10 +129,13 @@ void drawShape(Face faces[], Point points[], int face_count)
 
         printf("%lf %lf\n", p1.x, p1.y);
 
-        glBegin(GL_TRIANGLES);
+        glBegin(GL_LINES);
         glVertex2f(p1.x, p1.y);
         glVertex2f(p2.x, p2.y);
+        glVertex2f(p2.x, p2.y);
         glVertex2f(p3.x, p3.y);
+        glVertex2f(p3.x, p3.y);
+        glVertex2f(p1.x, p1.y);
         glEnd();
     }
 }

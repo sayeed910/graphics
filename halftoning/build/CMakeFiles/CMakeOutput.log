@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/sayeed/programs/academic
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a9c1e/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_a9c1e.dir/build.make CMakeFiles/cmTC_a9c1e.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_ccfd7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ccfd7.dir/build.make CMakeFiles/cmTC_ccfd7.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a9c1e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a9c1e.dir/testCCompiler.c.o   -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a9c1e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9c1e.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_a9c1e.dir/testCCompiler.c.o  -o cmTC_a9c1e 
+Building C object CMakeFiles/cmTC_ccfd7.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ccfd7.dir/testCCompiler.c.o   -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ccfd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfd7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ccfd7.dir/testCCompiler.c.o  -o cmTC_ccfd7 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3f0ca/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_3f0ca.dir/build.make CMakeFiles/cmTC_3f0ca.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_4cad7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4cad7.dir/build.make CMakeFiles/cmTC_4cad7.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_3f0ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f0ca.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o  -o cmTC_3f0ca 
+Building C object CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4cad7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cad7.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o  -o cmTC_4cad7 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3f0ca' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9hYWFk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3f0ca /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3f0ca' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cad7' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMMiO8T.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4cad7 /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cad7' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_3f0ca/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_3f0ca.dir/build.make CMakeFiles/cmTC_3f0ca.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_4cad7/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_4cad7.dir/build.make CMakeFiles/cmTC_4cad7.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_3f0ca]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f0ca.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o  -o cmTC_3f0ca ]
+  ignore line: [Building C object CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4cad7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cad7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o  -o cmTC_4cad7 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3f0ca' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9hYWFk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3f0ca /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cad7' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMMiO8T.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4cad7 /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9hYWFk.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMMiO8T.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -111,7 +111,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3f0ca] ==> ignore
+    arg [cmTC_4cad7] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o] ==> ignore
@@ -120,7 +120,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../..]
-    arg [CMakeFiles/cmTC_3f0ca.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4cad7.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -147,14 +147,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_86c43/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_86c43.dir/build.make CMakeFiles/cmTC_86c43.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_ce5db/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ce5db.dir/build.make CMakeFiles/cmTC_ce5db.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86c43.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_86c43.dir/feature_tests.c.o   -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_86c43
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86c43.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_86c43.dir/feature_tests.c.o  -o cmTC_86c43 
+Building C object CMakeFiles/cmTC_ce5db.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ce5db.dir/feature_tests.c.o   -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ce5db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce5db.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ce5db.dir/feature_tests.c.o  -o cmTC_ce5db 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
@@ -167,14 +167,14 @@ gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_deef6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_deef6.dir/build.make CMakeFiles/cmTC_deef6.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_7b9c4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7b9c4.dir/build.make CMakeFiles/cmTC_7b9c4.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_deef6.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_deef6.dir/feature_tests.c.o   -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_deef6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deef6.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_deef6.dir/feature_tests.c.o  -o cmTC_deef6 
+Building C object CMakeFiles/cmTC_7b9c4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_7b9c4.dir/feature_tests.c.o   -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7b9c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b9c4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7b9c4.dir/feature_tests.c.o  -o cmTC_7b9c4 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
@@ -187,14 +187,14 @@ gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_badc7/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_badc7.dir/build.make CMakeFiles/cmTC_badc7.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_39303/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_39303.dir/build.make CMakeFiles/cmTC_39303.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_badc7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_badc7.dir/feature_tests.c.o   -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_badc7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_badc7.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_badc7.dir/feature_tests.c.o  -o cmTC_badc7 
+Building C object CMakeFiles/cmTC_39303.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_39303.dir/feature_tests.c.o   -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_39303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39303.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_39303.dir/feature_tests.c.o  -o cmTC_39303 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
@@ -205,28 +205,28 @@ gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_adda3/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_adda3.dir/build.make CMakeFiles/cmTC_adda3.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_d2ae2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d2ae2.dir/build.make CMakeFiles/cmTC_d2ae2.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_adda3.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_adda3.dir/testCXXCompiler.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_adda3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adda3.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_adda3.dir/testCXXCompiler.cxx.o  -o cmTC_adda3 
+Building CXX object CMakeFiles/cmTC_d2ae2.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d2ae2.dir/testCXXCompiler.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d2ae2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2ae2.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d2ae2.dir/testCXXCompiler.cxx.o  -o cmTC_d2ae2 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a96b2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_a96b2.dir/build.make CMakeFiles/cmTC_a96b2.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_cd83c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd83c.dir/build.make CMakeFiles/cmTC_cd83c.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a96b2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a96b2.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a96b2 
+Building CXX object CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_cd83c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd83c.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cd83c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper
@@ -238,9 +238,9 @@ Thread model: posix
 gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a96b2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI4f9sF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a96b2 /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a96b2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd83c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccATxvqr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cd83c /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd83c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
@@ -248,14 +248,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_a96b2/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a96b2.dir/build.make CMakeFiles/cmTC_a96b2.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_cd83c/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_cd83c.dir/build.make CMakeFiles/cmTC_cd83c.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a96b2]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a96b2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a96b2 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_cd83c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd83c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cd83c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper]
@@ -267,13 +267,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a96b2' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI4f9sF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a96b2 /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cd83c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccATxvqr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cd83c /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccI4f9sF.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccATxvqr.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -288,7 +288,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a96b2] ==> ignore
+    arg [cmTC_cd83c] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../..]
-    arg [CMakeFiles/cmTC_a96b2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_cd83c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -322,14 +322,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c8a4f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c8a4f.dir/build.make CMakeFiles/cmTC_c8a4f.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_b8a31/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b8a31.dir/build.make CMakeFiles/cmTC_b8a31.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c8a4f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c8a4f.dir/feature_tests.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c8a4f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8a4f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c8a4f.dir/feature_tests.cxx.o  -o cmTC_c8a4f 
+Building CXX object CMakeFiles/cmTC_b8a31.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_b8a31.dir/feature_tests.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b8a31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a31.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b8a31.dir/feature_tests.cxx.o  -o cmTC_b8a31 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
@@ -395,14 +395,14 @@ gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f4325/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f4325.dir/build.make CMakeFiles/cmTC_f4325.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_e07d0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e07d0.dir/build.make CMakeFiles/cmTC_e07d0.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f4325.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f4325.dir/feature_tests.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f4325
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4325.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f4325.dir/feature_tests.cxx.o  -o cmTC_f4325 
+Building CXX object CMakeFiles/cmTC_e07d0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_e07d0.dir/feature_tests.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e07d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e07d0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e07d0.dir/feature_tests.cxx.o  -o cmTC_e07d0 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
@@ -468,14 +468,14 @@ gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7255d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_7255d.dir/build.make CMakeFiles/cmTC_7255d.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_f5767/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f5767.dir/build.make CMakeFiles/cmTC_f5767.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7255d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7255d.dir/feature_tests.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7255d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7255d.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_7255d.dir/feature_tests.cxx.o  -o cmTC_7255d 
+Building CXX object CMakeFiles/cmTC_f5767.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f5767.dir/feature_tests.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f5767
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5767.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f5767.dir/feature_tests.cxx.o  -o cmTC_f5767 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 
@@ -541,14 +541,14 @@ gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_05c9d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_05c9d.dir/build.make CMakeFiles/cmTC_05c9d.dir/build
+Run Build Command:"/usr/bin/gmake" "cmTC_33716/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_33716.dir/build.make CMakeFiles/cmTC_33716.dir/build
 gmake[1]: Entering directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_05c9d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_05c9d.dir/feature_tests.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_05c9d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c9d.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_05c9d.dir/feature_tests.cxx.o  -o cmTC_05c9d 
+Building CXX object CMakeFiles/cmTC_33716.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_33716.dir/feature_tests.cxx.o -c /home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_33716
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33716.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_33716.dir/feature_tests.cxx.o  -o cmTC_33716 
 gmake[1]: Leaving directory '/home/sayeed/programs/academic/graphics/halftoning/build/CMakeFiles/CMakeTmp'
 
 

@@ -11,8 +11,9 @@ void display();
 //Main program
 int main(int argc, char **argv)
 {
-    // halftone();
-    read_image();
+    
+    halftone("../images/baboon.ascii.pgm");
+    // read_image("../images/baboon.ascii.pgm");
     glutInit(&argc, argv);
     //Simple buffer
     glutInitDisplayMode(GLUT_SINGLE);
@@ -46,9 +47,9 @@ void display()
             glColor3f(color, color, color);
             glVertex2d(i, HEIGHT - j);
             glEnd();
-            printf("%.0lf ", color);
+            // printf("%.0lf ", color);
         }
-        puts("");
+        // puts("");
             
     }
     // for (int i = 0; i < 10; i+=3){

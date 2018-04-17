@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/student/sayeed/graphics/projection_2/src/main.c" "/home/student/sayeed/graphics/projection_2/build/CMakeFiles/projection.dir/src/main.c.o"
-  "/home/student/sayeed/graphics/projection_2/src/projection.c" "/home/student/sayeed/graphics/projection_2/build/CMakeFiles/projection.dir/src/projection.c.o"
+  "/home/sayeed/programs/academic/graphics/projection_2/src/main.c" "/home/sayeed/programs/academic/graphics/projection_2/build/CMakeFiles/projection.dir/src/main.c.o"
+  "/home/sayeed/programs/academic/graphics/projection_2/src/projection.c" "/home/sayeed/programs/academic/graphics/projection_2/build/CMakeFiles/projection.dir/src/projection.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
