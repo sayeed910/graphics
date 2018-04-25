@@ -26,6 +26,11 @@ typedef struct
     int vertex_count, face_count;
 } Data;
 
+typedef struct
+{
+    double curx, ymax, ymin, slopeInv;
+} Edge;
+
 Point points[3000];
 Face faces[6000];
 Point projectedPoints[3000];
@@ -97,20 +102,114 @@ void project(Point points[], Point projectedPoints[], int pointCount)
         double x = points[i].x;
         double y = points[i].y;
 
-       
-
-    if (!cow){
-        projectedPoints[i].x = d * x  / (4000 + z) ;
-        projectedPoints[i].y = d * y  / (4000 + z) ;
-        projectedPoints[i].z = d * z  / (4000 + z) ;
-    } else{
-         projectedPoints[i].x = d * x * 100 / (4000 + z);
-        projectedPoints[i].y = d * y * 100 / (4000 + z);
-        projectedPoints[i].z = d * z * 100 / (4000 + z);
-
-    }
+        if (!cow)
+        {
+            projectedPoints[i].x = d * x / (4000 + z);
+            projectedPoints[i].y = d * y / (4000 + z);
+            projectedPoints[i].z = d * z / (4000 + z);
+        }
+        else
+        {
+            projectedPoints[i].x = d * x * 100 / (4000 + z);
+            projectedPoints[i].y = d * y * 100 / (4000 + z);
+            projectedPoints[i].z = d * z * 100 / (4000 + z);
+        }
 
         printf("%lf %lf %lf\n", projectedPoints[i].x, projectedPoints[i].y, projectedPoints[i].z);
+    }
+}
+
+Edge makeEdge(Point p1, Point p2)
+{
+    Edge e;
+
+    if (p1.y > p2.y)
+    {
+        e.ymax = p1.y;
+        e.ymin = p2.y;
+        e.curx = p2.x;
+        e.slopeInv = (p1.y - p2.y) != 0 ? (p1.x - p2.x) / (p1.y - p2.y) : 0;
+    }
+    else
+    {
+        e.ymax = p2.y;
+        e.ymin = p1.y;
+        e.curx = p1.x;
+        e.slopeInv = (p2.y - p1.y) != 0 ? (p2.x - p1.x) / (p2.y - p1.y) : 0;
+    }
+
+    return e;
+}
+
+double min(double a, double b, double c)
+{
+    if (a <= b && a <= c)
+        return a;
+    else if (b <= a && b <= c)
+        return b;
+    else
+        return c;
+}
+
+double max(double a, double b, double c)
+{
+    if (a >= b && a >= c)
+        return a;
+    else if (b >= a && b >= c)
+        return b;
+    else
+        return c;
+}
+
+void fill(Point p1, Point p2, Point p3)
+{
+
+    Edge edges[3];
+
+    Edge *edgeTable[2] = {NULL};
+
+    edges[0] = makeEdge(p1, p2);
+    edges[1] = makeEdge(p2, p3);
+    edges[2] = makeEdge(p3, p1);
+
+    double ymin = min(p1.y, p2.y, p3.y);
+    double ymax = max(p1.y, p2.y, p3.y);
+
+    for (int i = 0; i < 3; i++)
+    {
+        if (edges[i].ymin == ymin)
+        {
+            if (edgeTable[0] == NULL)
+                edgeTable[0] = &edges[i];
+            else
+                edgeTable[1] = &edges[i];
+        }
+    }
+
+    for (int y = ymin; y <= ymax; y++)
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            if (edgeTable[i]->ymax == y)
+            {
+                for (int j = 0; i < 3; i++)
+                {
+                    if (edges[j].ymin == y)
+                    {
+                        edgeTable[i] = &edges[i];
+                    }
+                }
+            }
+
+            glBegin(GL_LINES);
+            glVertex2f(edgeTable[0]->curx, y);
+            glVertex2f(edgeTable[1]->curx, y);
+
+            glEnd();
+
+            edgeTable[0]->curx += edgeTable[0]->slopeInv;
+            edgeTable[1]->curx += edgeTable[1]->slopeInv;
+        }
     }
 }
 
@@ -129,14 +228,17 @@ void drawShape(Face faces[], Point points[], int face_count)
 
         printf("%lf %lf\n", p1.x, p1.y);
 
-        glBegin(GL_TRIANGLES);
+        glBegin(GL_LINES);
         glVertex2f(p1.x, p1.y);
         glVertex2f(p2.x, p2.y);
+        glVertex2f(p2.x, p2.y);
         glVertex2f(p3.x, p3.y);
+        glVertex2f(p3.x, p3.y);
+        glVertex2f(p1.x, p1.y);
+        fill(p1, p2, p3);
         glEnd();
     }
 }
-
 
 void rotateZ(double angle)
 {
@@ -196,7 +298,6 @@ void rotateX(double angle)
         projectedPoints[i].z = dz;
     }
 }
-
 
 void display()
 {
