@@ -11,7 +11,7 @@ void display_halftone();
 int main(int argc, char **argv)
 {
 
-    halftone("Lion.bmp");
+    halftone("../Lion.bmp");
     // read_image("../images/baboon.ascii.pgm");
     glutInit(&argc, argv);
     //Simple buffer

@@ -94,42 +94,36 @@ int get_scale(int average)
     else if (average <= 75)
         index = 2;
 
-    // else if (average <= 100)
-    //     index = 3;
-    // else if (average <= 125)
-    //     index = 4;
-    // else if (average <= 150)
-    //     index = 5;
-    // else if (average <= 175)
-    //     index = 6;
-    // else if (average <= 200)
-    //     index = 7;
-    // else if (average <= 225)
-    //     index = 8;
-    // else
-    //     index = 9;
+    else if (average <= 100)
+        index = 3;
+    else if (average <= 125)
+        index = 4;
+    else if (average <= 150)
+        index = 5;
+    else if (average <= 175)
+        index = 6;
+    else if (average <= 200)
+        index = 7;
+    else if (average <= 225)
+        index = 8;
+    else
+        index = 9;
 
     return index;
 }
 
-int get_scale2(int average)
-{
-    int index;
-    if (average <= 25)
-        index = 0;
-    else if (average <= 50)
-        index = 1;
-    else if (average <= 75)
-        index = 2;
+// int get_scale2(int average)
+// {
+//     int index = 0;
 
-    for (int i = 75; i <= 225; i += 25)
-    {
-        if (average <= i)
-            return index++;
-    }
+//     for (int i = 25; i <= 225; i += 25)
+//     {
+//         if (average <= i)
+//             return index++;
+//     }
 
-    return index;
-}
+//     return index;
+// }
 
 void read_image(char *fname)
 {
