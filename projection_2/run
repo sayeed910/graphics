@@ -4,4 +4,4 @@ cd build
 rm -rf *
 cmake ..
 make 
-./rotation
+./projection

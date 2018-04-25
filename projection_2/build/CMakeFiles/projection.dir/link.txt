@@ -1,1 +1,1 @@
-/usr/bin/cc  -g   CMakeFiles/projection.dir/src/main.c.o CMakeFiles/projection.dir/src/projection.c.o  -o projection /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libglut.so /usr/lib/x86_64-linux-gnu/libXmu.so /usr/lib/x86_64-linux-gnu/libXi.so -lm 
+/usr/bin/cc  -std=c99 -g    CMakeFiles/projection.dir/src/main.o CMakeFiles/projection.dir/src/projection.o  -o projection -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi -lm 

@@ -1,3 +1,1 @@
-/home/student/sayeed/graphics/projection_2/build/CMakeFiles/edit_cache.dir
-/home/student/sayeed/graphics/projection_2/build/CMakeFiles/rebuild_cache.dir
-/home/student/sayeed/graphics/projection_2/build/CMakeFiles/projection.dir
+/home/student/sayeed/projection_2/build/CMakeFiles/projection.dir
