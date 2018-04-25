@@ -1,1 +1,1 @@
-/usr/bin/cc  -std=c99 -g    CMakeFiles/projection.dir/src/main.o CMakeFiles/projection.dir/src/projection.o  -o projection -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglut -lXmu -lXi -lm 
+/usr/bin/cc  -std=c99 -g   CMakeFiles/projection.dir/src/main.o CMakeFiles/projection.dir/src/projection.o  -o projection -rdynamic -lGLU -lGL -lglut -lXmu -lXi -lm 

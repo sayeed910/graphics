@@ -3,6 +3,7 @@ project(halftone)
 
 set(CMAKE_BUILD_TYPE "Debug")
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_C_FLAGS "-std=c99")
 
 add_executable(halftone src/main.c)
 include_directories(include)

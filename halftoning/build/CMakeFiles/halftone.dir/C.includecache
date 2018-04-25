@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/main.h
+GL/glut.h
+-
+stdio.h
+-
+math.h
+-
+
+/home/student/Downloads/graphics-master/halftoning/src/halftoning.c
+stdio.h
+-
+
+/home/student/Downloads/graphics-master/halftoning/src/main.c
+main.h
+/home/student/Downloads/graphics-master/halftoning/src/main.h
+halftoning.c
+/home/student/Downloads/graphics-master/halftoning/src/halftoning.c
+

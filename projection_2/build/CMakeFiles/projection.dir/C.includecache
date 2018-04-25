@@ -34,7 +34,7 @@ math.h
 draw3d.h
 ../include/draw3d.h
 
-/home/student/sayeed/projection_2/src/main.c
+/home/student/sayeed/graphics/projection_2/src/main.c
 stdlib.h
 -
 stdio.h
@@ -44,5 +44,7 @@ string.h
 math.h
 -
 main.h
-/home/student/sayeed/projection_2/src/main.h
+/home/student/sayeed/graphics/projection_2/src/main.h
+
+/home/student/sayeed/graphics/projection_2/src/projection.c
 

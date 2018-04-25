@@ -1,0 +1,3 @@
+/home/student/Downloads/graphics-master/halftoning/build/CMakeFiles/edit_cache.dir
+/home/student/Downloads/graphics-master/halftoning/build/CMakeFiles/rebuild_cache.dir
+/home/student/Downloads/graphics-master/halftoning/build/CMakeFiles/halftone.dir

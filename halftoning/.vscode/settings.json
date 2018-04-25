@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "math.h": "c",
-        "rotation.h": "c"
+        "rotation.h": "c",
+        "stdio.h": "c"
     }
 }
